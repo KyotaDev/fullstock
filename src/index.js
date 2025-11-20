@@ -1,8 +1,8 @@
 import express from "express"
 import { fileURLToPath } from "url"
 import path from "path"
-
-
+import { router as categoriesRouter } from "./routes/categories.js";
+import { router as productRouter } from "./routes/products.js" 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -22,5 +22,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Example app listening on http://localhost:${port}`)
 })
