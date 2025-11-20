@@ -1,0 +1,1284 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Polos",
+      "slug": "polos",
+      "imgSrc": "/images/polos.jpg",
+      "alt": "Hombre luciendo polo azul",
+      "description": "Polos exclusivos con diseños que todo desarrollador querrá lucir. Ideales para llevar el código a donde vayas."
+    },
+    {
+      "id": 2,
+      "title": "Tazas",
+      "slug": "tazas",
+      "imgSrc": "/images/tazas.jpg",
+      "alt": "Tazas con diseño de código",
+      "description": "Tazas que combinan perfectamente con tu café matutino y tu pasión por la programación."
+    },
+    {
+      "id": 3,
+      "title": "Stickers",
+      "slug": "stickers",
+      "imgSrc": "/images/stickers.jpg",
+      "alt": "Stickers de desarrollo web",
+      "description": "Personaliza tu espacio de trabajo con nuestros stickers únicos y muestra tu amor por el desarrollo web."
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Polo React",
+      "imgSrc": "/images/polos/polo-react.png",
+      "price": 20,
+      "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
+      "categoryId": 1,
+      "isOnSale": false,
+      "features": [
+        "Estampado resistente que mantiene sus colores vibrantes lavado tras lavado.",
+        "Hecho de algodón suave que asegura comodidad y frescura.",
+        "Costuras reforzadas para una mayor durabilidad.",
+        "Corte moderno que se adapta perfectamente al cuerpo."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Polo JavaScript",
+      "imgSrc": "/images/polos/polo-js.png",
+      "price": 20,
+      "description": "Deja que tu amor por JavaScript hable a través de cada hilo de este polo.",
+      "categoryId": 1,
+      "isOnSale": false,
+      "features": [
+        "Logo de JavaScript bordado con precisión y detalle.",
+        "Tela premium de algodón peinado.",
+        "Disponible en varios colores.",
+        "Acabado profesional con doble costura."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Polo Node.js",
+      "imgSrc": "/images/polos/polo-node.png",
+      "price": 20,
+      "description": "Conéctate al estilo con este polo de Node.js, tan robusto como tu código.",
+      "categoryId": 1,
+      "isOnSale": false,
+      "features": [
+        "Diseño minimalista con el logo de Node.js.",
+        "Material transpirable ideal para largas sesiones de código.",
+        "Tejido resistente a múltiples lavados.",
+        "Etiqueta sin costuras para mayor comodidad."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Polo TypeScript",
+      "imgSrc": "/images/polos/polo-ts.png",
+      "price": 20,
+      "description": "Tipa tu estilo con precisión: lleva tu pasión por TypeScript en cada hilo.",
+      "categoryId": 1,
+      "isOnSale": false,
+      "features": [
+        "Logo de TypeScript estampado en alta calidad.",
+        "Tejido antimanchas y duradero.",
+        "Cuello reforzado que mantiene su forma.",
+        "100% algodón hipoalergénico."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Polo Backend Developer",
+      "imgSrc": "/images/polos/polo-backend.png",
+      "price": 25,
+      "description": "Domina el servidor con estilo: viste con orgullo tu título de Backend Developer.",
+      "categoryId": 1,
+      "isOnSale": false,
+      "features": [
+        "Diseño exclusivo para desarrolladores backend.",
+        "Material premium que mantiene su forma.",
+        "Costuras reforzadas en puntos de tensión.",
+        "Estampado de alta durabilidad."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Polo Frontend Developer",
+      "imgSrc": "/images/polos/polo-frontend.png",
+      "price": 25,
+      "description": "Construye experiencias con estilo: luce con orgullo tu polo de Frontend Developer.",
+      "categoryId": 1,
+      "isOnSale": false,
+      "features": [
+        "Diseño inspirado en elementos de UI/UX.",
+        "Tela suave y ligera perfecta para el día a día.",
+        "Estampado flexible que no se agrieta.",
+        "Acabado profesional en cada detalle."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Polo Full-Stack Developer",
+      "imgSrc": "/images/polos/polo-fullstack.png",
+      "price": 25,
+      "description": "Domina ambos mundos con estilo: lleva tu título de FullStack Developer en cada línea de tu look.",
+      "categoryId": 1,
+      "isOnSale": false,
+      "features": [
+        "Diseño que representa ambos mundos del desarrollo.",
+        "Material premium de larga duración.",
+        "Proceso de estampado ecológico.",
+        "Corte moderno y cómodo."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Polo It's A Feature",
+      "imgSrc": "/images/polos/polo-feature.png",
+      "price": 15,
+      "description": "Cuando el bug se convierte en arte: lleva con orgullo tu polo 'It's a feature'.",
+      "categoryId": 1,
+      "isOnSale": true,
+      "features": [
+        "Estampado humorístico de alta calidad.",
+        "Algodón orgánico certificado.",
+        "Diseño exclusivo de la comunidad dev.",
+        "Disponible en múltiples colores."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Polo It Works On My Machine",
+      "imgSrc": "/images/polos/polo-works.png",
+      "price": 15,
+      "description": "El clásico del desarrollador: presume tu confianza con 'It works on my machine'.",
+      "categoryId": 1,
+      "isOnSale": true,
+      "features": [
+        "Frase icónica del mundo del desarrollo.",
+        "Material durable y cómodo.",
+        "Estampado que no se desvanece.",
+        "Ideal para regalo entre desarrolladores."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Sticker JavaScript",
+      "imgSrc": "/images/stickers/sticker-js.png",
+      "price": 2.99,
+      "description": "Muestra tu amor por JavaScript con este elegante sticker clásico.",
+      "categoryId": 3,
+      "isOnSale": false,
+      "features": [
+        "Vinilo de alta calidad resistente al agua",
+        "Adhesivo duradero que no deja residuos",
+        "Colores vibrantes que no se desvanecen",
+        "Tamaño perfecto para laptops y dispositivos"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Sticker React",
+      "imgSrc": "/images/stickers/sticker-react.png",
+      "price": 2.49,
+      "description": "Decora tus dispositivos con el icónico átomo giratorio de React.",
+      "categoryId": 3,
+      "isOnSale": false,
+      "features": [
+        "Vinilo de alta calidad resistente al agua",
+        "Adhesivo duradero que no deja residuos",
+        "Colores vibrantes que no se desvanecen",
+        "Tamaño perfecto para laptops y dispositivos"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Sticker Git",
+      "imgSrc": "/images/stickers/sticker-git.png",
+      "price": 3.99,
+      "description": "Visualiza el poder del control de versiones con este sticker de Git.",
+      "categoryId": 3,
+      "isOnSale": false,
+      "features": [
+        "Vinilo de alta calidad resistente al agua",
+        "Adhesivo duradero que no deja residuos",
+        "Colores vibrantes que no se desvanecen",
+        "Tamaño perfecto para laptops y dispositivos"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Sticker Docker",
+      "imgSrc": "/images/stickers/sticker-docker.png",
+      "price": 2.99,
+      "description": "La adorable ballena de Docker llevando contenedores en un sticker único.",
+      "categoryId": 3,
+      "isOnSale": false,
+      "features": [
+        "Vinilo de alta calidad resistente al agua",
+        "Adhesivo duradero que no deja residuos",
+        "Colores vibrantes que no se desvanecen",
+        "Tamaño perfecto para laptops y dispositivos"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Sticker Linux",
+      "imgSrc": "/images/stickers/sticker-linux.png",
+      "price": 2.49,
+      "description": "El querido pingüino Tux, mascota oficial de Linux, en formato sticker.",
+      "categoryId": 3,
+      "isOnSale": false,
+      "features": [
+        "Vinilo de alta calidad resistente al agua",
+        "Adhesivo duradero que no deja residuos",
+        "Colores vibrantes que no se desvanecen",
+        "Tamaño perfecto para laptops y dispositivos"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Sticker VS Code",
+      "imgSrc": "/images/stickers/sticker-vscode.png",
+      "price": 2.49,
+      "description": "El elegante logo del editor favorito de los desarrolladores.",
+      "categoryId": 3,
+      "isOnSale": false,
+      "features": [
+        "Vinilo de alta calidad resistente al agua",
+        "Adhesivo duradero que no deja residuos",
+        "Colores vibrantes que no se desvanecen",
+        "Tamaño perfecto para laptops y dispositivos"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Sticker GitHub",
+      "imgSrc": "/images/stickers/sticker-github.png",
+      "price": 2.99,
+      "description": "El alojamiento de repositorios más popular en un sticker de alta calidad.",
+      "categoryId": 3,
+      "isOnSale": false,
+      "features": [
+        "Vinilo de alta calidad resistente al agua",
+        "Adhesivo duradero que no deja residuos",
+        "Colores vibrantes que no se desvanecen",
+        "Tamaño perfecto para laptops y dispositivos"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Sticker HTML",
+      "imgSrc": "/images/stickers/sticker-html.png",
+      "price": 2.99,
+      "description": "El escudo naranja de HTML5, el lenguaje que estructura la web.",
+      "categoryId": 3,
+      "isOnSale": false,
+      "features": [
+        "Vinilo de alta calidad resistente al agua",
+        "Adhesivo duradero que no deja residuos",
+        "Colores vibrantes que no se desvanecen",
+        "Tamaño perfecto para laptops y dispositivos"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Taza JavaScript",
+      "imgSrc": "/images/tazas/taza-js.png",
+      "price": 14.99,
+      "description": "Disfruta tu café mientras programas con el logo de JavaScript.",
+      "categoryId": 2,
+      "isOnSale": false,
+      "features": [
+        "Cerámica de alta calidad",
+        "Apta para microondas y lavavajillas",
+        "Capacidad de 325ml",
+        "Diseño que no pierde color con el uso"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Taza React",
+      "imgSrc": "/images/tazas/taza-react.png",
+      "price": 13.99,
+      "description": "Una taza que hace render de tu bebida favorita con estilo React.",
+      "categoryId": 2,
+      "isOnSale": false,
+      "features": [
+        "Cerámica de alta calidad",
+        "Apta para microondas y lavavajillas",
+        "Capacidad de 325ml",
+        "Diseño que no pierde color con el uso"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Taza Git",
+      "imgSrc": "/images/tazas/taza-git.png",
+      "price": 12.99,
+      "description": "Commit a tu rutina diaria de café con esta taza de Git.",
+      "categoryId": 2,
+      "isOnSale": false,
+      "features": [
+        "Cerámica de alta calidad",
+        "Apta para microondas y lavavajillas",
+        "Capacidad de 325ml",
+        "Diseño que no pierde color con el uso"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Taza SQL",
+      "imgSrc": "/images/tazas/taza-sql.png",
+      "price": 15.99,
+      "description": "Tu amor por los lenguajes estructurados en una taza de SQL.",
+      "categoryId": 2,
+      "isOnSale": false,
+      "features": [
+        "Cerámica de alta calidad",
+        "Apta para microondas y lavavajillas",
+        "Capacidad de 325ml",
+        "Diseño que no pierde color con el uso"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Taza Linux",
+      "imgSrc": "/images/tazas/taza-linux.png",
+      "price": 13.99,
+      "description": "Toma tu café con la libertad que solo Linux puede ofrecer.",
+      "categoryId": 2,
+      "isOnSale": false,
+      "features": [
+        "Cerámica de alta calidad",
+        "Apta para microondas y lavavajillas",
+        "Capacidad de 325ml",
+        "Diseño que no pierde color con el uso"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Taza GitHub",
+      "imgSrc": "/images/tazas/taza-github.png",
+      "price": 14.99,
+      "description": "Colabora con tu café en esta taza con el logo de GitHub.",
+      "categoryId": 2,
+      "isOnSale": false,
+      "features": [
+        "Cerámica de alta calidad",
+        "Apta para microondas y lavavajillas",
+        "Capacidad de 325ml",
+        "Diseño que no pierde color con el uso"
+      ]
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "sessionId": "OTrduLxomRykg0IFwqCnvDEX-a0J-wKw",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 10,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sessionId": "JDRbHKEAU4PfOAWwq3uoujjla9ok-CNX",
+      "items": []
+    },
+    {
+      "id": 3,
+      "sessionId": "4nR_3AYEetJ67uMBDzngf96k4pX6bNJQ",
+      "items": []
+    },
+    {
+      "id": 4,
+      "sessionId": "hZWf12zjJeKLjkBvGpHElM_OzS3wF5HS",
+      "items": []
+    },
+    {
+      "id": 5,
+      "sessionId": "mxBoDRetlKQBsZz_2Il1dieVatcrUkv_",
+      "items": []
+    },
+    {
+      "id": 6,
+      "sessionId": "cV2HXIpsz-kXdaQ_EbiGyCyvbUH-oOVG",
+      "items": []
+    },
+    {
+      "id": 7,
+      "sessionId": "A1C2QPV-KgXSDdsakqX_5mY0qhstACZH",
+      "items": []
+    },
+    {
+      "id": 8,
+      "sessionId": "xZ2iT-Qmaj1oLFencwznNWjKC2Y80yBE",
+      "items": []
+    },
+    {
+      "id": 9,
+      "sessionId": "UXLT1_JamP59TH73SSsEKiEUfHzg9LlM",
+      "items": []
+    },
+    {
+      "id": 10,
+      "sessionId": "oNehDQuK1bg4dIK_DxSw56acavJdCo1x",
+      "items": []
+    },
+    {
+      "id": 11,
+      "sessionId": "XDMyMkHOWQqFzPhWHgDk4_c2O4EO1Qju",
+      "items": []
+    },
+    {
+      "id": 12,
+      "sessionId": "99pGJg5PWo2C8qFgwmwTlpp9quGHe3GN",
+      "items": []
+    },
+    {
+      "id": 13,
+      "sessionId": "TygvSU8BOpW_u02O3cHfd_B66C9rZj6x",
+      "items": []
+    },
+    {
+      "id": 14,
+      "sessionId": "SUF24_xDRDSsHYvNpeTTNfO59zaCwfZP",
+      "items": []
+    },
+    {
+      "id": 15,
+      "sessionId": "4Bl9O4OBJ8qlu7pbGndPe9Ysb9HFJHck",
+      "items": []
+    },
+    {
+      "id": 16,
+      "sessionId": "DAB_xkR0qnaoI6U9oijhDVt2LCkGqiX2",
+      "items": []
+    },
+    {
+      "id": 17,
+      "sessionId": "sgVu3IlJAHNvcngysBDIm50zzsqJ0LIi",
+      "items": []
+    },
+    {
+      "id": 18,
+      "sessionId": "xRscllYFGijMk-vwJlPqb8CaH5yumbzC",
+      "items": []
+    },
+    {
+      "id": 19,
+      "sessionId": "yFhMiBOazsWusurlPxQ4RjcsmWhc0Aw-",
+      "items": []
+    },
+    {
+      "id": 20,
+      "sessionId": "k04Nbg5nLJTBtv5m4p_UHUUndTXSvTiO",
+      "items": []
+    },
+    {
+      "id": 21,
+      "sessionId": "y9Pa2tPBms28V5lIFbxqDNQo4oxFesjR",
+      "items": []
+    },
+    {
+      "id": 22,
+      "sessionId": "5fS02JC5sRnGw59-6D9cakuDQ_OqrhQr",
+      "items": []
+    },
+    {
+      "id": 23,
+      "sessionId": "ML_qbvstBbB6vDT6Ex5F2d72KNZHrhxO",
+      "items": []
+    },
+    {
+      "id": 24,
+      "sessionId": "dzrqL1sPGCyiujLs95nvj7Vq_9o0D9II",
+      "items": []
+    },
+    {
+      "id": 25,
+      "sessionId": "EQ5jugLat5YBUlXW7Lc3slQSmHY17MLw",
+      "items": []
+    },
+    {
+      "id": 26,
+      "sessionId": "HEKuRb02EZ-vDPCfWXpB_HlByI9Wy_VX",
+      "items": []
+    },
+    {
+      "id": 27,
+      "sessionId": "tcZrPziMneUVWis2GPP2HoDSjr37DvoE",
+      "items": []
+    },
+    {
+      "id": 28,
+      "sessionId": "gbop0GK5GPj_S1Joba2MKSoFXTO1wgPT",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "sessionId": "cA8FVJDeqChgB21fDvqEZyVW2UIb8r7Y",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "sessionId": "3R63rGwnwSCxHkU4LEhttAk-4I6fyzuP",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "sessionId": "nOw9f3N8os1y_9c3SrsBePDSYyhwreyb",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "sessionId": "ynYlRNgKqtVP6lfO-2lgCdH_vFhHb6tf",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "sessionId": "hrAqrNkRUxVEeeyOmb0w5IM7rYA7QDKI",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "sessionId": "zmV6xo0R5sZOP3kkODMxnSCjjkPpeOPv",
+      "items": []
+    },
+    {
+      "id": 35,
+      "sessionId": "fWw9qNk7wv0BiOfJCwgAA5DKAiEETAL3",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 19,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "sessionId": "XfE27PeiqsM0qBgb0TD39aAXXUrD6iPF",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "sessionId": "qPrr8CM-HukpaRN5Kq2obGnn61K_DFko",
+      "items": [
+        {
+          "productId": 18,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "sessionId": "7KbNC02dp5JPNOoz22IGSd1ji1v-tj2z",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "sessionId": "wsX0G6my1Xq5RcuLAtkCsvgiT0mzob83",
+      "items": []
+    },
+    {
+      "id": 40,
+      "sessionId": "6VToeLu98bUCDqp1CkkFKTthRzx40hZH",
+      "items": []
+    },
+    {
+      "id": 41,
+      "sessionId": "ZL2Mf_vmutyFih9OJS7Tj1v0gNQMlfN1",
+      "items": []
+    },
+    {
+      "id": 42,
+      "sessionId": "rwrKjYjTKhCHWpZCLbGVmM6fLbYcS1RJ",
+      "items": []
+    },
+    {
+      "id": 43,
+      "sessionId": "LFQeVjRU1rh2mAE-pzc-AR4rYVAi3p9f",
+      "items": []
+    },
+    {
+      "id": 44,
+      "sessionId": "RXzw6DKi8VE3EKdsMZ_rhlKGS29HEVY5",
+      "items": []
+    },
+    {
+      "id": 45,
+      "sessionId": "TGkqk-eGxnxz-Sy6YZ9yy1LlPX8HDjyI",
+      "items": []
+    },
+    {
+      "id": 46,
+      "sessionId": "VMNIcJE8mnr6Ljjhg35FhdB9AmIspeIu",
+      "items": []
+    },
+    {
+      "id": 47,
+      "sessionId": "Xxf1Hvhx8AiEImIObiO1i54ia6PZdk5G",
+      "items": []
+    },
+    {
+      "id": 48,
+      "sessionId": "tHEtPv-m7YMXnPS4SfwWeMBvdpyWZt7f",
+      "items": []
+    },
+    {
+      "id": 49,
+      "sessionId": "pMoAG4uyMIH8QeM8Y-XoYz8cCfF8F6GL",
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "sessionId": "JL7rlBJ9bYxXWhXipA3b7oomkjPdq80z",
+      "items": [
+        {
+          "productId": 18,
+          "quantity": 1
+        },
+        {
+          "productId": 18,
+          "quantity": 1
+        },
+        {
+          "productId": 11,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "sessionId": "zqebxeGYvslLe1e91xwn02wyloyaQf0-",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "sessionId": "AlG6NpMhsgUQpfHrc0u28Uo1ug-y3jhS",
+      "items": [
+        {
+          "productId": 18,
+          "quantity": 1
+        },
+        {
+          "productId": 18,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "sessionId": "kbAzopq-da5xeA0vE7w1v6sNu9cz4WHw",
+      "items": [
+        {
+          "productId": 10,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "sessionId": "MiZtW4d8_xEMptAGBjgWS2YxH-bxsYJE",
+      "items": []
+    },
+    {
+      "id": 55,
+      "sessionId": "y5TVpiMcdQjqsaAOg-WOWrpCvRvq-sIf",
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "sessionId": "XlqYDGLthDFxv2morjdp5slIdwyWwMLI",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "sessionId": "e5sed5cbfkYSYEGFPXgpQJKcmYLrF9LJ",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "sessionId": "b4fOI7nbE_hiZ8KKFmBwPOv5v2tm3ZgJ",
+      "items": [
+        {
+          "productId": 11,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "sessionId": "sUdlFrkmGcwGtm7DnKeuGW6Wc8oab-NX",
+      "items": []
+    },
+    {
+      "id": 60,
+      "sessionId": "r-VqLOabcnLkMw8lRJxjIyEQ3R0yHOM0",
+      "items": []
+    },
+    {
+      "id": 61,
+      "sessionId": "y8Uwh7K12VQdlVw33OtulCWoJjWc36oa",
+      "items": []
+    },
+    {
+      "id": 62,
+      "sessionId": "d8_ie0klQXvhybiggT0NFQPmAAItUw1H",
+      "items": []
+    },
+    {
+      "id": 63,
+      "sessionId": "JpfAHFC_kHSHbTSJqFxp5ikb2F2uQ_eG",
+      "items": []
+    },
+    {
+      "id": 64,
+      "sessionId": "BALtfz9F9DTVYx8nKb9n_epUxax6yOW9",
+      "items": []
+    },
+    {
+      "id": 65,
+      "sessionId": "yfZIXbAnAtM1UKVH0U7s_CajZlkQBm7i",
+      "items": []
+    },
+    {
+      "id": 66,
+      "sessionId": "EYEHR_KEQfVRmip0iMF9WL-1UN1zDseU",
+      "items": []
+    },
+    {
+      "id": 67,
+      "sessionId": "GUkbdhEuAhJZb5mBH6G8fzBUU1eaIV6n",
+      "items": []
+    },
+    {
+      "id": 68,
+      "sessionId": "7TKKKwuN4tdJXZTTc366ObCCSBIVCEnB",
+      "items": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "4e621277-5bfc-415e-b3e7-128c5d80c2d4",
+      "orderNumber": "ORD-1756869598729-471",
+      "email": "greciadm2596test0001@gmail.com",
+      "cartId": "b4fOI7nbE_hiZ8KKFmBwPOv5v2tm3ZgJ",
+      "shipping": {
+        "firstName": "asddsf",
+        "lastName": "dsfsd",
+        "company": "fsdfds",
+        "phone": "89999",
+        "address": "sdfsd",
+        "city": "sdfds",
+        "region": "332534",
+        "zipCode": "23435",
+        "country": "VE"
+      },
+      "items": [
+        {
+          "productId": 11,
+          "price": 2.49,
+          "imageUrl": "/images/stickers/sticker-react.png",
+          "quantity": 1,
+          "subtotal": 2.49
+        }
+      ],
+      "total": 2.49,
+      "status": "pending",
+      "createdAt": "2025-09-03T03:19:58.729Z"
+    },
+    {
+      "id": "549aa79b-ecd4-41a9-b795-5ccf367e2922",
+      "orderNumber": "ORD-1756869674708-857",
+      "email": "greciadm2596@gmail.com",
+      "cartId": "sUdlFrkmGcwGtm7DnKeuGW6Wc8oab-NX",
+      "shipping": {
+        "firstName": "SDS",
+        "lastName": "SDFDS",
+        "company": "DSFDS",
+        "phone": "898067976",
+        "address": "FSDD",
+        "city": "DSFDS",
+        "region": "DSFDS",
+        "zipCode": "1121",
+        "country": "CO"
+      },
+      "items": [
+        {
+          "productId": 19,
+          "price": 13.99,
+          "imageUrl": "/images/tazas/taza-react.png",
+          "quantity": 1,
+          "subtotal": 13.99
+        }
+      ],
+      "total": 13.99,
+      "status": "pending",
+      "createdAt": "2025-09-03T03:21:14.708Z"
+    },
+    {
+      "id": "c0f71588-2c87-4172-ae0a-7e7df142ebb5",
+      "orderNumber": "ORD-1756869823640-356",
+      "email": "greciadm2596TEST007@gmail.com",
+      "cartId": "r-VqLOabcnLkMw8lRJxjIyEQ3R0yHOM0",
+      "shipping": {
+        "firstName": "fff",
+        "lastName": "w",
+        "company": "g",
+        "phone": "837843754",
+        "address": "hg",
+        "city": "hg",
+        "region": "hg",
+        "zipCode": "726732",
+        "country": "HT"
+      },
+      "items": [
+        {
+          "productId": 3,
+          "price": 20,
+          "imageUrl": "/images/polos/polo-node.png",
+          "quantity": 1,
+          "subtotal": 20
+        }
+      ],
+      "total": 20,
+      "status": "pending",
+      "createdAt": "2025-09-03T03:23:43.640Z"
+    },
+    {
+      "id": "f9e768c9-17bf-412d-83f0-154890b310d9",
+      "orderNumber": "ORD-1756869916480-313",
+      "email": "greciadm2596@gmail.com",
+      "cartId": "y8Uwh7K12VQdlVw33OtulCWoJjWc36oa",
+      "shipping": {
+        "firstName": "g",
+        "lastName": "hf",
+        "company": "hg",
+        "phone": "345",
+        "address": "hg",
+        "city": "f",
+        "region": "gh",
+        "zipCode": "fjh",
+        "country": "GT"
+      },
+      "items": [
+        {
+          "productId": 2,
+          "price": 20,
+          "imageUrl": "/images/polos/polo-js.png",
+          "quantity": 1,
+          "subtotal": 20
+        }
+      ],
+      "total": 20,
+      "status": "pending",
+      "createdAt": "2025-09-03T03:25:16.480Z"
+    },
+    {
+      "id": "00d6b34d-e3e3-4795-8060-776c1360d71e",
+      "orderNumber": "ORD-1756870006406-229",
+      "email": "greciadm2596@gmail.com",
+      "cartId": "d8_ie0klQXvhybiggT0NFQPmAAItUw1H",
+      "shipping": {
+        "firstName": "rtrtret",
+        "lastName": "y",
+        "company": "y",
+        "phone": "reewr",
+        "address": "y",
+        "city": "y",
+        "region": "y",
+        "zipCode": "uu",
+        "country": "EC"
+      },
+      "items": [
+        {
+          "productId": 1,
+          "price": 20,
+          "imageUrl": "/images/polos/polo-react.png",
+          "quantity": 1,
+          "subtotal": 20
+        }
+      ],
+      "total": 20,
+      "status": "pending",
+      "createdAt": "2025-09-03T03:26:46.406Z"
+    },
+    {
+      "id": "d02d9d18-8b24-40c0-a912-56437f520bca",
+      "orderNumber": "ORD-1756870176932-231",
+      "email": "greciadm2596@gmail.com",
+      "cartId": "JpfAHFC_kHSHbTSJqFxp5ikb2F2uQ_eG",
+      "shipping": {
+        "firstName": "grecia",
+        "lastName": "rqwrter",
+        "company": "r",
+        "phone": "3243243",
+        "address": "r",
+        "city": "r",
+        "region": "y",
+        "zipCode": "76",
+        "country": "DO"
+      },
+      "items": [
+        {
+          "productId": 1,
+          "price": 20,
+          "imageUrl": "/images/polos/polo-react.png",
+          "quantity": 1,
+          "subtotal": 20
+        },
+        {
+          "productId": 1,
+          "price": 20,
+          "imageUrl": "/images/polos/polo-react.png",
+          "quantity": 1,
+          "subtotal": 20
+        }
+      ],
+      "total": 40,
+      "status": "pending",
+      "createdAt": "2025-09-03T03:29:36.932Z"
+    },
+    {
+      "id": "d628af30-09dd-4c00-a76c-e50f99156e15",
+      "orderNumber": "ORD-1756870250500-664",
+      "email": "greciadm2596@gmial.com",
+      "cartId": "BALtfz9F9DTVYx8nKb9n_epUxax6yOW9",
+      "shipping": {
+        "firstName": "gre",
+        "lastName": "u",
+        "company": "u",
+        "phone": "98097897",
+        "address": "i",
+        "city": "i",
+        "region": "o",
+        "zipCode": "o98",
+        "country": "AR"
+      },
+      "items": [
+        {
+          "productId": 18,
+          "price": 14.99,
+          "imageUrl": "/images/tazas/taza-js.png",
+          "quantity": 1,
+          "subtotal": 14.99
+        }
+      ],
+      "total": 14.99,
+      "status": "pending",
+      "createdAt": "2025-09-03T03:30:50.500Z"
+    },
+    {
+      "id": "f1192d33-0edd-4ea3-a304-c613ae9fbc31",
+      "orderNumber": "ORD-1756870314929-601",
+      "email": "greciadm2596@gmail.com",
+      "cartId": "yfZIXbAnAtM1UKVH0U7s_CajZlkQBm7i",
+      "shipping": {
+        "firstName": "UuyUYu",
+        "lastName": "U",
+        "company": "U",
+        "phone": "U",
+        "address": "U",
+        "city": "U",
+        "region": "U",
+        "zipCode": "U",
+        "country": "UY"
+      },
+      "items": [
+        {
+          "productId": 11,
+          "price": 2.49,
+          "imageUrl": "/images/stickers/sticker-react.png",
+          "quantity": 1,
+          "subtotal": 2.49
+        }
+      ],
+      "total": 2.49,
+      "status": "pending",
+      "createdAt": "2025-09-03T03:31:54.929Z"
+    },
+    {
+      "id": "5bd491bb-b041-4cde-ab90-a24238b87032",
+      "orderNumber": "ORD-1756870372164-806",
+      "email": "greciadm2596@gmial.com",
+      "cartId": "EYEHR_KEQfVRmip0iMF9WL-1UN1zDseU",
+      "shipping": {
+        "firstName": "qweyt",
+        "lastName": "y",
+        "company": "y",
+        "phone": "y",
+        "address": "y",
+        "city": "y",
+        "region": "y",
+        "zipCode": "wer",
+        "country": "CO"
+      },
+      "items": [
+        {
+          "productId": 11,
+          "price": 2.49,
+          "imageUrl": "/images/stickers/sticker-react.png",
+          "quantity": 1,
+          "subtotal": 2.49
+        }
+      ],
+      "total": 2.49,
+      "status": "pending",
+      "createdAt": "2025-09-03T03:32:52.164Z"
+    },
+    {
+      "id": "bddde4c9-058b-4142-849c-94b2918a3ff2",
+      "orderNumber": "ORD-1756870497237-224",
+      "email": "greciadm2596@gmail.com",
+      "cartId": "7TKKKwuN4tdJXZTTc366ObCCSBIVCEnB",
+      "shipping": {
+        "firstName": "gre",
+        "lastName": "wqe",
+        "company": "utyt",
+        "phone": "quywt",
+        "address": "uyt",
+        "city": "iyuy",
+        "region": "qeqwytey",
+        "zipCode": "uy",
+        "country": "PY"
+      },
+      "items": [
+        {
+          "productId": 10,
+          "price": 2.99,
+          "imageUrl": "/images/stickers/sticker-js.png",
+          "quantity": 1,
+          "subtotal": 2.99
+        }
+      ],
+      "total": 2.99,
+      "status": "pending",
+      "createdAt": "2025-09-03T03:34:57.237Z"
+    }
+  ]
+}
