@@ -24,4 +24,18 @@ function getData(callback) {
     })
 }
 
-export {getData}
+function getCart(carts, cartId = 1) {
+    const cartFound = carts.find(cart => cart.id === cartId);
+    return cartFound
+}
+
+function saveData(data, callback){ 
+    const filePath = path.resolve(__dirname, "db.json");
+    fs.writeFile(filePath, JSON.stringify(data), (err) =>{
+        console.error(err);
+        callback(err);
+        return;
+    })
+}
+
+export {getData, getCart, saveData}

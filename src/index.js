@@ -3,6 +3,8 @@ import { fileURLToPath } from "url"
 import path from "path"
 import { router as categoriesRouter } from "./routes/categories.js";
 import { router as productRouter } from "./routes/products.js" 
+import { router as cartRouter } from "./routes/cart.js"
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -13,9 +15,11 @@ app.set('view engine', 'ejs')
 app.set('views', path.resolve(__dirname, 'views'))
 
 app.use(express.static('public', {extended: true}))
+app.use(express.urlencoded({extended: true}));
 
 app.use('/categories', categoriesRouter);
-app.use('/product', productRouter)
+app.use('/product', productRouter);
+app.use('/cart', cartRouter);
 
 app.get('/', (req, res) => {
   res.render('home')
