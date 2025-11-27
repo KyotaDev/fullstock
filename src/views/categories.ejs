@@ -70,19 +70,21 @@
         <% products.map(product => { %>
         <div class="container">
           <article class="product-container">
-            <div class="product-container-top">
+            <a href="/product/<%= product.id %>">
+              <div class="product-container-top">
               <img
                 src="<%= product.imgSrc %>"
                 alt="Imagen de un producto"
               />
-            </div>
-            <div class="product-container-bottom">
+              </div>
+              <div class="product-container-bottom">
               <p class="product-title"><%= product.title %></p>
               <p class="product-description">
                 <%= product.description %>
               </p>
               <p class="product-price"><%= product.price %></p>
-            </div>
+              </div>
+            </a>
           </article>
         </div>
         <% }) %>

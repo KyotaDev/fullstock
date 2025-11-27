@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+            <div class="header-top-nav">
+              <nav class="header-user-links">
+                <ul>
+                  <li><a href="">Iniciar sesión</a></li>
+                  <li><a href="">Crear una cuenta</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header-main-nav">
+            <img src="/images/logo.svg" alt="" class="header-logo">
+            <div class="actions">
+              <div><img src="/images/icon-search.svg" alt="icon search"></div>
+              <div><img src="/images/icon-user.svg" alt="icon user"></div>
+              <div><img src="/images/vertical-bar.png" alt="vertical bar"></div>
+              <div><img src="/images/icon-shopping-cart.svg" alt="icon shopping cart"></div>
+            </div>
+            <div class="category-links">
+              <nav>
+                <ul>
+                  <li><a href="">Polos</a></li>
+                  <li><a href="">Tazas</a></li>
+                  <li><a href="">Stickers</a></li>
+                  <li><a href="">Compañía</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+    <section class="product">
+      <div class="product__content">
+        <img src="<%= product.imgSrc %>" alt="" class="product__image">
+        <div class="product__details">
+          <p class="product__title"><%= product.title %></p>
+          <p class="product__price">$<%= product.price %></p>
+          <p class="product__description"><%= product.description %></p>
+          <form action="">
+            
+          </form>
+          <button class="addCart">Agregar al carrito</button>
+          <hr class="separator">
+          <p class="features__title">Características</p>
+          <ul>
+            <% product.features.map(feature => { %>
+              <li class="feature_item"><%= feature %></li>
+            <% }) %>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="footer">Footer</section>
+  </body>
+</html>
